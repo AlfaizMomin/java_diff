@@ -1,0 +1,16 @@
+public class CodeIssuesSample {
+
+    public static void main(String[] args) {
+        // Unused local variable issue
+        int unusedValue; // This variable is declared but not used
+        
+        // Unconditional if statement issue
+        boolean condition = true;
+        if (condition) {
+            System.out.println("This condition always executes.");
+        }
+        
+        // Use of sysout issue
+        System.out.println("This is a sysout statement.");
+    }
+}
