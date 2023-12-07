@@ -2,7 +2,7 @@ public class CodeIssuesExample {
 
     public static void main(String[] args) {
         // Unused local variable issue
-        int unusedVariable;
+        // int unusedVariable;
 
         // Unconditional if statement issue
         boolean condition = true;
@@ -11,10 +11,10 @@ public class CodeIssuesExample {
         }
 
         // Use of sysout issue
-        System.out.println("This is a sysout statement.");
+        // System.out.println("This is a sysout statement.");
 
         // Unused local variable issue
-        int unusedValue;
+        // int unusedValue;
 
         // Unconditional if statement issue
         boolean anotherCondition = false;
@@ -31,7 +31,7 @@ public class CodeIssuesExample {
         // Unconditional if statement issue
         boolean yetAnotherCondition = true;
         if (yetAnotherCondition) {
-            // System.out.println("Yet another condition that's always true.");
+            System.out.println("Yet another condition that's always true.");
         }
 
         // Use of sysout issue
