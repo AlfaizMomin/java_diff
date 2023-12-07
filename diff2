@@ -1,0 +1,7 @@
+public class CodeIssuesSample {
+
+    public static void main(String[] args) {
+        // Unused local variable issue
+        int unusedValue; // This variable is declared but not used
+    }
+}
