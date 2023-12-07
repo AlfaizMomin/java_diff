@@ -7,7 +7,7 @@ public class CodeIssuesExample {
         // Unconditional if statement issue
         boolean condition = true;
         if (condition) {
-            // System.out.println("This condition always executes.");
+            System.out.println("This condition always executes.");
         }
 
         // Use of sysout issue
@@ -23,7 +23,7 @@ public class CodeIssuesExample {
         }
 
         // Use of sysout issue
-        System.out.println("Another sysout statement.");
+        // System.out.println("Another sysout statement.");
 
         // Unused local variable issue
         int someValue;
@@ -31,10 +31,10 @@ public class CodeIssuesExample {
         // Unconditional if statement issue
         boolean yetAnotherCondition = true;
         if (yetAnotherCondition) {
-            System.out.println("Yet another condition that's always true.");
+            // System.out.println("Yet another condition that's always true.");
         }
 
         // Use of sysout issue
-        // System.out.println("One more sysout statement.");
+        System.out.println("One more sysout statement.");
     }
 }
