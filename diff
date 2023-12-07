@@ -1,10 +1,16 @@
 public class CodeIssuesSample {
 
     public static void main(String[] args) {
-        // Unused local variable issue
-        int unusedValue;
+        // Unused local variable issue (Fixed by initializing the variable)
+        int unusedValue = 0;
 
-        // Unconditional if statement issue
+        // Unconditional if statement issue (Kept as is)
+
+        // New code issue: Division by zero
+        int a = 5;
+        int b = 0;
+        int result = a / b; // This line introduces a division by zero issue
+
         boolean condition = true;
         if (condition) {
             System.out.println("This condition always executes.");
