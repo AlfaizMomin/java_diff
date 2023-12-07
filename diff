@@ -13,7 +13,9 @@ public class CodeIssuesSample {
 
         boolean condition = true;
         if (condition) {
-            System.out.println("This condition always executes.");
+        //  System.out.println("This condition always executes.");
         }
+
+         int c;
     }
 }
