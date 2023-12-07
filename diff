@@ -1,0 +1,13 @@
+public class CodeIssuesSample {
+
+    public static void main(String[] args) {
+        // Unused local variable issue
+        int unusedValue;
+
+        // Unconditional if statement issue
+        boolean condition = true;
+        if (condition) {
+            System.out.println("This condition always executes.");
+        }
+    }
+}
