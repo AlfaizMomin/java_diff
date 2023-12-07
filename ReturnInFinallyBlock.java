@@ -7,7 +7,7 @@ public class CodeIssuesExample {
         // Unconditional if statement issue
         boolean condition = true;
         if (condition) {
-            System.out.println("This condition always executes.");
+            // System.out.println("This condition always executes.");
         }
 
         // Use of sysout issue
@@ -19,7 +19,7 @@ public class CodeIssuesExample {
         // Unconditional if statement issue
         boolean anotherCondition = false;
         if (anotherCondition) {
-            System.out.println("This condition always executes as well.");
+            // System.out.println("This condition always executes as well.");
         }
 
         // Use of sysout issue
@@ -35,6 +35,6 @@ public class CodeIssuesExample {
         }
 
         // Use of sysout issue
-        System.out.println("One more sysout statement.");
+        // System.out.println("One more sysout statement.");
     }
 }
