@@ -20,6 +20,7 @@ public class CodeIssuesExample {
         // Unconditional if statement issue
         boolean anotherCondition = false;
         if (anotherCondition) {
+               System.out.println("This condition always executes.");
             System.out.println("This condition always executes as well.");
         }
 
