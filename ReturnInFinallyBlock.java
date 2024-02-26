@@ -24,6 +24,8 @@ public class CodeIssuesExample {
         boolean anotherCondition = false;
         if (anotherCondition) {
             System.out.println("This condition always executes as well.");
+              System.out.println("This is a sysout statement.");
+            try{}catch(Exception e){}
         }
 
         // Use of sysout issue
