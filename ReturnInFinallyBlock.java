@@ -39,6 +39,8 @@ public class CodeIssuesExample {
         boolean yetAnotherCondition = true;
         if (yetAnotherCondition) {
             System.out.println("Yet another condition that's always true.");
+               System.out.println("This is a sysout statement.");
+            try{}catch(Exception e){}
         }
 
         // Use of sysout issue
