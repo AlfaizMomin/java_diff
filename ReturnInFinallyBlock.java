@@ -26,6 +26,7 @@ public class CodeIssuesExample {
             System.out.println("This condition always executes as well.");
               System.out.println("This is a sysout statement.");
             try{}catch(Exception e){}
+            System.out.println("This condition always executes.");
         }
 
         // Use of sysout issue
