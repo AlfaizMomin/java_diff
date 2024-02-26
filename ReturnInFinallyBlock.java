@@ -9,6 +9,7 @@ public class CodeIssuesExample {
         boolean condition = true;
         if (condition) {
             System.out.println("This condition always executes.");
+               System.out.println("This condition always executes.");
             
         }
         
