@@ -4,6 +4,7 @@ public class CodeIssuesExample {
         // Unused local variable issue
         int unusedVariable;
 
+        
         // Unconditional if statement issue
         boolean condition = true;
         if (condition) {
