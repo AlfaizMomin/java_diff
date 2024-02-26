@@ -45,5 +45,6 @@ public class CodeIssuesExample {
 
         // Use of sysout issue
         System.out.println("One more sysout statement.");
+           System.out.println("Yet another condition that's always true.");
     }
 }
