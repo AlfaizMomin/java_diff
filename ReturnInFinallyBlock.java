@@ -9,8 +9,7 @@ public class CodeIssuesExample {
         boolean condition = true;
         if (condition) {
             System.out.println("This condition always executes.");
-             System.out.println("This is a sysout statement.");
-            try{}catch(Exception e){}
+            
         }
         
 
