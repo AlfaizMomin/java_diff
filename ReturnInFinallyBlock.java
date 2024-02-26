@@ -40,6 +40,7 @@ public class CodeIssuesExample {
         boolean yetAnotherCondition = true;
         if (yetAnotherCondition) {
             System.out.println("Yet another condition that's always true.");
+             System.out.println("Yet another condition that's always true.");
         }
 
         // Use of sysout issue
