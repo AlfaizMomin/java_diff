@@ -1,4 +1,5 @@
 public class CodeIssuesExample {
+    
 
     public static void main(String[] args) {
         // Unused local variable issue
