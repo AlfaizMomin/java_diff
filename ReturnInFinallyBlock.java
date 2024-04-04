@@ -27,6 +27,7 @@ public class CodeIssuesExample {
 
         // Use of sysout issue
         System.out.println("Another sysout statement.");
+          System.out.println("Another sysout statement.");
 
         // Unused local variable issue
         int someValue;
