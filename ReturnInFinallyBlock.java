@@ -7,6 +7,7 @@ public class CodeIssuesExample {
         // Unconditional if statement issue
         boolean condition = true;
         if (condition) {
+            
             // System.out.println("This condition always executes.");
         }
 
