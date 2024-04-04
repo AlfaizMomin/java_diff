@@ -16,6 +16,7 @@ public class CodeIssuesExample {
 
         // Unused local variable issue
         int unusedValue;
+        
 
         // Unconditional if statement issue
         boolean anotherCondition = false;
